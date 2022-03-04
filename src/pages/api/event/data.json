@@ -1,0 +1,76 @@
+{
+    "events":[
+        {
+            "id":"1",
+            "name":"Automate Azure/O365 licensing to add/remove licenses related to Azure Groups",
+            "slug":"Automate Azure/O365 licensing to add/remove licenses related to Azure Groups ,Automate Azure/O365 licensing to add/remove licenses related to Azure Groups",
+            "author":"Jack",
+            "address":"",
+            "date":"Feb 10,2022",
+            "time":"10:00 PM IST",
+            "description":"",
+            "image":""
+
+        },
+        {
+            "id":"2",
+            "name":"Enable outgoing ping",
+            "slug":"Enable outgoing ping",
+            "author":"Jack",
+            "address":"",
+            "date":"Feb 10,2022",
+            "time":"10:00 PM IST",
+            "description":"",
+            "image":"/images/events-default.jpg"
+
+        },
+        {
+            "id":"3",
+            "name":"Option for Azure AD join",
+            "slug":"Option for Azure AD join",
+            "author":"Jack",
+            "address":"",
+            "date":"Feb 10,2022",
+            "time":"10:00 PM IST",
+            "description":"",
+            "image":"/images/events-default.jpg"
+
+        },
+        {
+            "id":"4",
+            "name":"Allow Admin to connect to cloud pc from admin center",
+            "slug":"Allow Admin to connect to cloud pc from admin center",
+            "author":"Jack",
+            "address":"",
+            "date":"Feb 10,2022",
+            "time":"10:00 PM IST",
+            "description":"",
+            "image":"/images/events-default.jpg"
+
+        },
+        {
+            "id":"5",
+            "name":"Allow Admin to connect to cloud pc from admin center",
+            "slug":"Allow Admin to connect to cloud pc from admin center",
+            "author":"Jack",
+            "address":"",
+            "date":"Feb 10,2022",
+            "time":"10:00 PM IST",
+            "description":"",
+            "image":"/images/events-default.jpg"
+
+        },
+        {
+            "id":"6",
+            "name":"Allow Admin to connect to cloud pc from admin center",
+            "slug":"Allow Admin to connect to cloud pc from admin center",
+            "author":"Jack",
+            "address":"",
+            "date":"Feb 10,2022",
+            "time":"10:00 PM IST",
+            "description":"",
+            "image":"/images/events-default.jpg"
+
+        }
+    ]
+}

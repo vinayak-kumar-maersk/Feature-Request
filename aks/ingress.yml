@@ -1,0 +1,22 @@
+
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name:  __APP_NAME__-ingress
+  namespace: "__NAMESPACE__"
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+    - host: "__DOMAIN__"
+      http:
+        paths:
+          - path: /
+            pathType: "Prefix"
+            backend:
+              serviceName: __APP_NAME__-service
+              servicePort: 3000
+  tls:
+    - hosts:
+        - "__DOMAIN__"
+      secretName: tls-wildcard-maersk-digital-net

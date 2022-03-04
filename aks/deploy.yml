@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "__APP_NAME__"
+  namespace: "__NAMESPACE__"
+  labels:
+    product: "__PRODUCT__"
+    app: "__APP_NAME__"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "__APP_NAME__"
+  template:
+    metadata:
+      labels:
+        app: "__APP_NAME__"
+        product: "__PRODUCT__"
+    spec:
+      imagePullSecrets:
+        - name: __PRODUCT__-acr-secret
+      containers:
+        - name: "__APP_NAME__"
+          image: "__DOCKER_IMAGE_NAME__"
+          imagePullPolicy: IfNotPresent
+          envFrom:
+          - configMapRef:
+              name: __APP_NAME__-configmap
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: 150m
+              memory: 512Mi

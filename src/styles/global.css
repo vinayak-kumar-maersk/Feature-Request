@@ -1,0 +1,16 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'SegoeUI','Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+  background-color: rgba(189, 193, 199, 0.178);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
